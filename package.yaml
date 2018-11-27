@@ -25,6 +25,7 @@ dependencies:
 - uri-bytestring
 - string-conv
 - safe
+- fadno-xml
 
 library:
   source-dirs: src

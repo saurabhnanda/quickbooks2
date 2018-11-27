@@ -37,6 +37,11 @@ resolver: lts-12.1
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - .
+- location:
+    git: https://github.com/saurabhnanda/fadno-xml.git
+    commit: 27a26c70fd6bb2da9f663674a6381c82c867593d
+  extra-dep: true
+
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 # extra-deps: []
